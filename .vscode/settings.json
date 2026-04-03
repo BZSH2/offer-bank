@@ -1,0 +1,38 @@
+{
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/.pnpm-store": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "pnpm-lock.yaml, tsconfig.tsbuildinfo",
+    "tsconfig.json": "tsconfig.*.json",
+    ".gitignore": ".gitattributes",
+    ".env": ".env.*",
+    "eslint.config.mjs": ".lintstagedrc.mjs, stylelint.config.mjs, commitlint.config.cjs, prettier.config.mjs, .markdownlint.jsonc"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "prettier.requireConfig": true,
+  "eslint.useFlatConfig": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
+  "stylelint.validate": ["css", "scss", "vue"],
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "cSpell.words": [
+    "uniapp",
+    "tsconfig",
+    "eslint",
+    "stylelint",
+    "husky",
+    "commitlint",
+    "prettier",
+    "lintstaged",
+    "pinia",
+    "DTO"
+  ]
+}

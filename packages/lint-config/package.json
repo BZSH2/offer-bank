@@ -1,0 +1,14 @@
+{
+  "name": "@offer-bank/lint-config",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint/base": "./eslint/base.mjs",
+    "./eslint/uniapp-vue": "./eslint/uniapp-vue.mjs",
+    "./eslint/nest": "./eslint/nest.mjs",
+    "./eslint/admin-vue": "./eslint/admin-vue.mjs",
+    "./stylelint/base": "./stylelint/base.mjs",
+    "./stylelint/vue": "./stylelint/vue.mjs",
+    "./prettier": "./prettier/index.mjs"
+  }
+}

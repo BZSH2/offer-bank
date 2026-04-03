@@ -1,0 +1,10 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "Offer Bank"
+      }
+    }
+  ]
+}

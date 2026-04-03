@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./apps/mobile-uniapp" },
+    { "path": "./apps/api-nest" },
+    { "path": "./apps/admin-web" }
+  ]
+}

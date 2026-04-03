@@ -1,0 +1,16 @@
+{
+  "name": "@offer-bank/api-nest",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "lint:eslint": "eslint . --max-warnings=0",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  }
+}
